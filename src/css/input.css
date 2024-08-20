@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf")
+      format("truetype");
+  }
+
+  @font-face {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../assets/fonts/outfit/Outfit-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../assets/fonts/outfit/Outfit-SemiBold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../assets/fonts/outfit/Outfit-Bold.ttf") format("truetype");
+  }
+}
