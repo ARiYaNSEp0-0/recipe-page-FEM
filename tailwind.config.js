@@ -13,6 +13,10 @@ module.exports = {
         mobile: "375px",
         desktop: "1440px",
       },
+      spacing: {
+        30: "123px",
+        card: "738px",
+      },
       colors: {
         stone: {
           100: "hsl(30, 54%, 90%)",
@@ -27,6 +31,18 @@ module.exports = {
           50: "hsl(330, 100%, 98%)",
           800: "hsl(332, 51%, 32%)",
         },
+      },
+      gridTemplateColumns: {
+        listItem: "0fr 1fr",
+        card: "1fr 82% 1fr",
+      },
+      content: {
+        disc: "counter(_, disc)",
+        decimal: "counter(ol_counter) '.'",
+      },
+      fontSize: {
+        headingLevel2: "28px",
+        headingLevel1Desktop: "40px",
       },
     },
   },

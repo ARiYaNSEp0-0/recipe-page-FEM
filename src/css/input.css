@@ -36,3 +36,11 @@
     src: url("../assets/fonts/outfit/Outfit-Bold.ttf") format("truetype");
   }
 }
+
+ol {
+  counter-reset: ol_counter;
+}
+
+ol > li {
+  counter-increment: ol_counter;
+}
